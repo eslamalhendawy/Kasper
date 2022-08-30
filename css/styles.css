@@ -1128,6 +1128,12 @@ ul {
     caret-color: var(--main-color);
 }
 
+@media (max-width: 767px) {
+    .email .container form input[type="email"] {
+        width: 60%;
+    }
+}
+
 .email .container form input[type="email"]:focus {
     outline: none;
 }
